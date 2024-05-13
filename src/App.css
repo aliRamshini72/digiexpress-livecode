@@ -1,0 +1,101 @@
+/* /*------ app -------*/
+
+* {
+  transition: all 0.3s;
+  direction: rtl;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arapix";
+  font-weight: 800;
+}
+.flex {
+  display: flex;
+}
+.top {
+  margin-top: 100px;
+}
+#app {
+  width: 100%;
+  height: 100vh;
+  background-size: 200px;
+  background-repeat: repeat;
+  justify-content: center;
+}
+.mt {
+  margin-top: 12px;
+}
+
+.result {
+  display: flex;
+  padding: 16px 0;
+  border: 4px ridge #ffff0080;
+  background-color: #ffff0080;
+  width: 50%;
+  margin: 12px auto;
+  justify-content: center;
+}
+
+/*------ logo -------*/
+
+.logo {
+  background-color: lightgray;
+  width: 100%;
+  box-sizing: border-box;
+  align-self: center;
+  border: 4px ridge;
+}
+
+/*------ container -------*/
+
+.container {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*------ dropdown -------*/
+
+.drop-down {
+  position: relative;
+}
+
+.size {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 20px;
+  padding: 0 12px;
+}
+
+.color {
+  border: 4px outset lightgray;
+  background-color: lightgray;
+}
+
+.drop-down .input {
+  height: 36px;
+}
+
+.drop-down .active {
+  border-style: ridge;
+}
+
+.drop-down .list .item {
+  height: 32px;
+}
+
+.drop-down .list {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+
+.drop-down .list .item:hover {
+  background-color: gray;
+}
